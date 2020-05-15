@@ -36,7 +36,7 @@ Extras:
   
 ### 💻 Demo Web
 
-[https://aircnc-oficial.netlify.com/](https://be-the-hero-oficial.netlify.com/)
+[https://aircnc-oficial.netlify.com/](https://aircnc-oficial.netlify.com/)
 
 ### 📱 App
 
