@@ -40,7 +40,7 @@ Extras:
 
 ### 📱 App
 
-[Em breve para Android](/)
+[Em breve para Android](https://github.com/ialexanderbrito/aircnc/releases/tag/1.0.0)
 
 ### 💻 Projeto
 
