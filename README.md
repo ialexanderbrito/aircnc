@@ -14,8 +14,8 @@
     <img alt="Repository issues" src="https://img.shields.io/github/issues/ialexanderbrito/aircnc.svg"></a>
  
   <a href="https://rocketseat.com.br">
-    <img alt="Made by Rocketseat" src="https://img.shields.io/badge/made%20by-Rocketseat-red"></a>
-    <img alt="License" src="https://img.shields.io/badge/license-MIT-red">
+    <img alt="Made by Rocketseat" src="https://img.shields.io/badge/made%20by-Rocketseat-blueviolet"></a>
+    <img alt="License" src="https://img.shields.io/badge/license-MIT-blueviolet">
 </p>
 
 <br>
@@ -45,6 +45,90 @@ Extras:
 ### 💻 Projeto
 
 Projeto inspirado no Airbnb. A ideia do projeto é conectar empresas e desenvolvedores que procuram um lugar em comum para se conhecer.
+
+### ⚙ Como rodar este projeto
+
+Podemos considerar este projeto como sendo divido em três partes:
+
+1. Backend
+2. Frontend
+3. Mobile
+
+<b>💡 Tanto o Frontend quanto o Mobile precisam que o Backend esteja sendo executado para funcionar.</b>
+
+### Pré-requisitos
+
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+
+<b>[Git](https://git-scm.com)</b>
+
+<b>[Node.js](https://nodejs.org/en/)</b>
+
+<b>[Expo](https://expo.io)</b>
+
+E também será preciso um editor, eu indico o <b>[VSCode](https://code.visualstudio.com/)</b>
+
+### 🧭 Rodando o Backend
+
+```bash
+# Clone este repositório
+$ git clone https://github.com/ialexanderbrito/aircnc
+
+# Acesse a pasta do projeto no terminal/cmd
+$ cd aircnc
+
+# Vá para a pasta Backend
+$ cd backend
+
+# Instale as dependências
+$ npm install ou yarn add
+
+# Execute a aplicação em modo de desenvolvimento
+$ npm run dev ou yarn dev
+
+# O servidor inciará na porta:3333 - acesse http://localhost:3333 
+```
+
+### 🧭 Rodando o Frontend
+
+```bash
+# Clone este repositório
+$ git clone https://github.com/ialexanderbrito/aircnc
+
+# Acesse a pasta do projeto no seu terminal/cmd
+$ cd aircnc
+
+# Vá para a pasta da aplicação Frontend
+$ cd frontend
+
+# Instale as dependências
+$ npm install ou yarn add
+
+# Execute a aplicação
+$ npm start ou yarn start
+
+# A aplicação será aberta na porta:3000 - acesse http://localhost:3000
+```
+
+### 🧭 Rodando o Mobile
+
+```bash
+# Clone este repositório
+$ git clone https://github.com/ialexanderbrito/aircnc
+
+# Acesse a pasta do projeto no seu terminal/cmd
+$ cd aircnc
+
+# Vá para a pasta da aplicação Mobile
+$ cd mobile
+
+# Instale as dependências
+$ npm install ou yarn add
+
+# Execute a aplicação
+$ expo start
+
+```
 
 ### :recycle: Como contribuir
 
