@@ -1,171 +1,68 @@
-<h4 align="center">
-<img src="./mobile/src/assets/logo@3x.png" width="250px" /><br>
- <b>Code and Coffee!</b> ☕
-</h4>
-<p align="center">
-  <img alt="GitHub Language Count" src="https://img.shields.io/github/languages/count/ialexanderbrito/aircnc?style=flat-square" />
-  <img alt="GitHub Top Language" src="https://img.shields.io/github/languages/top/ialexanderbrito/aircnc?style=flat-square" />
-  <img alt="" src="https://img.shields.io/github/repo-size/ialexanderbrito/aircnc?style=flat-square" />
-  <img alt="GitHub Issues" src="https://img.shields.io/github/issues/ialexanderbrito/aircnc?style=flat-square" />
-  <img alt="GitHub Last Commit" src="https://img.shields.io/github/last-commit/ialexanderbrito/aircnc?style=flat-square" />
- 
-  <a href="https://rocketseat.com.br">
-    <img alt="Made by Rocketseat" src="https://img.shields.io/badge/made%20by-Rocketseat-blueviolet?style=flat-square"></a>
-    <img alt="License" src="https://img.shields.io/badge/license-MIT-blueviolet?style=flat-square">
-</p>
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-<br>
+## Available Scripts
 
-### :rocket: Tecnologias usadas
-Esse projeto foi desenvolvido com as seguintes tecnologias:
-- [Node.js](https://nodejs.org/en/)
-- [Expo](https://expo.io/)
-- [Express](https://expressjs.com/pt-br/)
-- [React](https://pt-br.reactjs.org/)
+In the project directory, you can run:
 
-Extras:
+### `yarn start`
 
-- Estilos
-  - [EditorConfig](https://editorconfig.org/)
-  - [ESLint](https://eslint.org/)
-  - [Prettier](https://prettier.io/)
-  
-### 💻 Demo Web
+Runs the app in the development mode.<br />
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-[https://aircnc-oficial.netlify.com/](https://aircnc-oficial.netlify.com/)
+The page will reload if you make edits.<br />
+You will also see any lint errors in the console.
 
-### 📱 App
+### `yarn test`
 
-[Download para Android](https://github.com/ialexanderbrito/aircnc/releases/tag/1.0.0)
+Launches the test runner in the interactive watch mode.<br />
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### 💻 Projeto
+### `yarn build`
 
-Projeto inspirado no Airbnb. A ideia do projeto é conectar empresas e desenvolvedores que procuram um lugar em comum para se conhecer.
+Builds the app for production to the `build` folder.<br />
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-### ⚙ Como rodar este projeto
+The build is minified and the filenames include the hashes.<br />
+Your app is ready to be deployed!
 
-Podemos considerar este projeto como sendo divido em três partes:
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-1. Backend
-2. Frontend
-3. Mobile
+### `yarn eject`
 
-<b>💡 Tanto o Frontend quanto o Mobile precisam que o Backend esteja sendo executado para funcionar.</b>
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-### Pré-requisitos
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-<b>[Git](https://git-scm.com)</b>
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-<b>[Node.js](https://nodejs.org/en/)</b>
+## Learn More
 
-<b>[Expo](https://expo.io)</b>
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-E também será preciso um editor, eu indico o <b>[VSCode](https://code.visualstudio.com/)</b>
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-### 🧭 Rodando o Backend
+### Code Splitting
 
-```bash
-# Clone este repositório
-$ git clone https://github.com/ialexanderbrito/aircnc
+This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
 
-# Acesse a pasta do projeto no terminal/cmd
-$ cd aircnc
+### Analyzing the Bundle Size
 
-# Vá para a pasta Backend
-$ cd backend
+This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
 
-# Instale as dependências
-$ npm install ou yarn add
+### Making a Progressive Web App
 
-# Execute a aplicação em modo de desenvolvimento
-$ npm run dev ou yarn dev
+This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
 
-# O servidor inciará na porta:3333 - acesse http://localhost:3333 
-```
+### Advanced Configuration
 
-### 🧭 Rodando o Frontend
+This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
 
-```bash
-# Clone este repositório
-$ git clone https://github.com/ialexanderbrito/aircnc
+### Deployment
 
-# Acesse a pasta do projeto no seu terminal/cmd
-$ cd aircnc
+This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
 
-# Vá para a pasta da aplicação Frontend
-$ cd frontend
+### `yarn build` fails to minify
 
-# Instale as dependências
-$ npm install ou yarn
-
-# Execute a aplicação
-$ npm start ou yarn start
-
-# A aplicação será aberta na porta:3000 - acesse http://localhost:3000
-```
-
-### 🧭 Rodando o Mobile
-
-```bash
-# Clone este repositório
-$ git clone https://github.com/ialexanderbrito/aircnc
-
-# Acesse a pasta do projeto no seu terminal/cmd
-$ cd aircnc
-
-# Vá para a pasta da aplicação Mobile
-$ cd mobile
-
-# Instale as dependências
-$ npm install ou yarn
-
-# Execute a aplicação
-$ expo start
-
-```
-
-### :recycle: Como contribuir
-
-- Fork esse repositório;
-- Crie uma branch com a sua feature: `git checkout -b my-feature`
-- Commit suas mudanças: `git commit -m 'feat: My new feature'`
-- Push a sua branch: `git push origin my-feature`
-
-Depois que o merge da sua pull request for feito, você pode deletar a sua branch.
-
-### :mortar_board: Quem ministrou?
-
-A semana foi ministrada pelo [Diego Fernandes](https://github.com/diego3g)
-
-### :memo: Licença
-
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
-
-### 📱 Social
-
-Me acompanhe nas minhas redes sociais.
-
-<p align="center">
-  
- <a href="https://twitter.com/ialexanderbrito" target="_blank" > 
-     <img alt="Twitter" src="https://img.shields.io/badge/-Twitter-9cf?style=flat-square&logo=Twitter&logoColor=white"></a> 
-  
-  <a href="https://instagram.com/ialexanderbrito" target="_blank" >
-    <img alt="Instagram" src="https://img.shields.io/badge/-Instagram-ff2b8e?style=flat-square&logo=Instagram&logoColor=white"></a> 
-
-  <a href="https://www.linkedin.com/in/ialexanderbrito/" target="_blank" >
-    <img alt="Linkedin" src="https://img.shields.io/badge/-Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white"></a>
-    
-  <a href="https://t.me/ialexanderbrito" target="_blank" >
-    <img alt="Telegram" src="https://img.shields.io/badge/-Telegram-blue?style=flat-square&logo=Telegram&logoColor=white"></a>
-  
-  <a href="mailto:ialexanderbrito@gmail.com" target="_blank" >
-    <img alt="Email" src="https://img.shields.io/badge/-Email-c14438?style=flat-square&logo=Gmail&logoColor=white"></a>
-    
-</p>
-
----
-
-Feito com ❤️ by **Alexander** 🤙🏾
+This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify

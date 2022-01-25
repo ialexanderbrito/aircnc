@@ -14,7 +14,7 @@ export default function Dashboard() {
 
   const socket = useMemo(
     () =>
-      socketio('http://localhost:3333', {
+      socketio('http://aircnc-oficial.herokuapp.com', {
         query: { user_id },
       }),
     [user_id]
