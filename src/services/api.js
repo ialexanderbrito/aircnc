@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'https://aircnc-oficial.herokuapp.com',
+  baseURL: 'https://aircnc-api.ialexanderbrito.dev',
 });
 
 export default api;
